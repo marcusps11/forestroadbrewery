@@ -1,0 +1,46 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  background-image: url(../img/subtle.png);
+  margin: 0 0 100px; /* bottom = footer height */
+}
+
+#logo{
+  width:20%;
+  margin-left: 0 auto;
+  margin-right: 0 auto;
+}
+
+
+#wrapper {
+  min-height: 100%;
+  height: auto;
+  margin: 0 auto -60px;
+  padding: 0 0 60px;
+}
+
+.footer {
+ position: absolute;
+ left: 0;
+ bottom: 0;
+ height: 100px;
+ width: 100%;
+  background-color: black;
+}
+
+.footer, .push {
+clear: both;
+}
+
+form {
+  width:600px;
+}
+
+.img-responsive {
+    margin: 0 auto;
+}
+
+

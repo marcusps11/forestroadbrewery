@@ -8,3 +8,6 @@ var userSchema = new mongoose.Schema({
     required: false
   }
 })
+
+var User = mongoose.model('User', userSchema);
+module.exports = User; 
