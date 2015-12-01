@@ -69,7 +69,7 @@ body{
 
 }
 
-#forest-road{
+.forest-road{
   color:white;
   max-width:100%;
   height:auto;
@@ -80,10 +80,12 @@ body{
 }
 
 .photo-middle{
-  max-width:100%;
-  height:auto;
-  display:block;
-  margin: 0 auto;
+ background-repeat:no-repeat;
+ -webkit-background-size:cover;
+ -moz-background-size:cover;
+ -o-background-size:cover;
+ background-size:cover;
+ background-position:center;
   background-image: url(../../img/fox.png) no-repeat;
 }
 
