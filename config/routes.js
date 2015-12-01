@@ -6,5 +6,5 @@ var router = express.Router();
 var User = require('../models/user');
 
 router.route('/')
-  .get(usersController.indexUsers)
+  .get(usersController.homePage)
   .post(usersController.addUser)

@@ -1,13 +1,15 @@
 var express = require("express");
 var app = express();
 var path = require("path");
-var port = process.env.PORT || 3000; 
 var bodyParser = require("body-parser");
 var methodOverride = require("method-override");
 var morgan = require('morgan');
 var mongoose = require('mongoose');
 var router = express.Router();
 var Beer = require('./models/beer');
+
+var port = process.env.PORT || 3000; 
+
 
 var databaseURL = process.env.MONGOLAB_URI || 'mongodb://localhost/forestroad';
 mongoose.connect(databaseURL); 
@@ -32,7 +34,7 @@ app.get('/', function(req,res){
   res.render('index')
 });
 
-var routes = require('./config/routes');
+// var routes = require('./config/routes');
 
 app.listen(port, function(){
   console.log('listening on port 3000')
