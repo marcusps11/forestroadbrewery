@@ -22,7 +22,7 @@ jQuery(function($)
                     'text': msg,
                     'to': [
                     {
-                        'email': 'marcusps1@gmail.com',
+                        'email': 'marcus@forestroad.co.uk',
                         'name': ' Marcus',
                         'type': 'to'
                     }]
@@ -30,6 +30,13 @@ jQuery(function($)
             }
         })
         .done(function(response) {
+            $('#msgInfo').html("<div class='alert alert-success'>");
+            $('#msgInfo > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
+            .append("</button>");
+            $('#msgInfo > .alert-success')
+            .append("<strong>Your message has been sent.</strong>");
+            $('#msgInfo > .alert-success')
+            .append('</div>');
             console.log('Your message has been sent. Thank you!'); // show success message
             $("#name").val(''); // reset field after successful submission
             $("#email").val(''); // reset field after successful submission
@@ -37,6 +44,11 @@ jQuery(function($)
         })
         .fail(function(response) {
             alert('Error sending message.');
+            $('#msgInfo').html("<div class='alert alert-danger'>");
+            $('#msgInfo > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
+            .append("</button>");
+            $('#msgInfo > .alert-danger').append("<strong>Sorry " + firstName + ", it seems that my mail server is not responding. Please email yo@forestroad.co.uk!");
+            $('#msgInfo > .alert-danger').append('</div>');
         });
         return false; // prevent page refresh
     });
