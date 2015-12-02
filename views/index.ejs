@@ -6,8 +6,8 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Pulse</title>
-	<meta name="description" content="...">
+	<title>Forest Road</title>
+	<meta name="description" content="Forest Road is an East London brewery.">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
@@ -147,17 +147,18 @@
 						<span class="wow fadeInRight" data-wow-delay="0.6s"><i class="fa fa-phone icon"></i>+447791171197</span>
 					</div>
 					<div class="col-xs-12 col-sm-8 col-sm-offset-2">
-						<form class="js-contact-form" role="form" action="mail/contact.php" method="post" data-parsley-validate>
+						<form role="form", name='contactus', id='contact_form',  data-parsley-validate>
 							<div id="msgInfo"></div>
-							<input type="text" class="form-control wow fadeInLeft name" data-wow-delay="0.2s" placeholder="Name" required data-parsley-error-message="Enter name">
-							<input type="email" class="form-control wow fadeInLeft email" data-wow-delay="0.4s" placeholder="Email" required data-parsley-error-message="Enter email">
+							<input type="text" class="form-control wow fadeInLeft name" data-wow-delay="0.2s" placeholder="Name" required data-parsley-error-message="Enter name" id="name">
+							<input type="email" class="form-control wow fadeInLeft email" data-wow-delay="0.4s" placeholder="Email" required data-parsley-error-message="Enter email" id="email">
 							<textarea class="form-control wow fadeInLeft message" data-wow-delay="0.6s" rows="6" placeholder="Message" required data-parsley-error-message="Enter message"></textarea>
-							<button type="submit" class="btn btn-lg wow fadeInUp" data-wow-delay="1s">Send message</button>
+							<button type="submit" class="btn btn-lg wow fadeInUp" data-wow-delay="1s" id="msg">Send message</button>
 						</form>
 					</div>
 				</div>
 			</div>
 		</section>
+
 
 		<!-- Google map -->
 		<div class="googleMapWrap">
@@ -215,6 +216,7 @@
 	<!-- Custom JS -->
 	<script src="assets/js/portfolio.js"></script>
 	<script src="assets/js/script.min.js"></script>
+	<script src="assets/js/app.js"></script>
 
 	<!-- Options (demo only) -->
 	<script src="assets/js/options.js"></script>

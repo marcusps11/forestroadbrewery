@@ -6,6 +6,7 @@ var methodOverride = require("method-override");
 var morgan = require('morgan');
 var mongoose = require('mongoose');
 var router = express.Router();
+var nodemailer = require('nodemailer');
 var Beer = require('./models/beer');
 
 var port = process.env.PORT || 3000; 
@@ -34,7 +35,6 @@ app.get('/', function(req,res){
   res.render('index')
 });
 
-// var routes = require('./config/routes');
 
 app.listen(port, function(){
   console.log('listening on port 3000')

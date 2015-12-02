@@ -241,7 +241,7 @@ ContactForm = {
 					$('#msgInfo').html("<div class='alert alert-danger'>");
 					$('#msgInfo > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
 					.append("</button>");
-					$('#msgInfo > .alert-danger').append("<strong>Sorry " + firstName + ", it seems that my mail server is not responding. Please try again later!");
+					$('#msgInfo > .alert-danger').append("<strong>Sorry " + firstName + ", it seems that my mail server is not responding. Please email yo@forestroad.co.uk!");
 					$('#msgInfo > .alert-danger').append('</div>');
 				},
 				complete: function() {
