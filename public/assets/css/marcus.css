@@ -1,21 +1,29 @@
 @font-face {
 font-family: linetoCircularBold;
-src: url(/font-awesome/fonts/lineto-circular-bold.ttf);
+src: url(/assets/font-awesome/fonts/lineto-circular-bold.ttf);
 }
 
 @font-face {
 font-family: linetoCircularBook;
-src: url(/font-awesome/fonts/lineto-circular-book.ttf);
+src: url(/assets/font-awesome/fonts/lineto-circular-book.ttf);
 }
 
 @font-face {
 font-family: sanchezRegular;
-src: url(/font-awesome/fonts/Sanchez-Regular.ttf);
+src: url(/assets/font-awesome/fonts/Sanchez-Regular.ttf);
 }
 
 body {
-font-family: linetoCircularBold, Helvetica, Arial, sans-serif;
-}  
+font-family: linetoCircularBold;
+} 
+
+a{
+  font-family: sanchezRegular;
+} 
+
+h1{
+  font-family: linetoCircularBook;
+}
 
 .logo .wrap {
   border: 1px solid #fff;
