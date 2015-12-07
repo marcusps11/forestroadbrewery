@@ -25,6 +25,10 @@ h1{
   font-family: linetoCircularBook;
 }
 
+section header h2 {
+  font-family:linetoCircularBook 
+}
+
 .logo .wrap {
   border: 1px solid #fff;
   max-height:100%;
