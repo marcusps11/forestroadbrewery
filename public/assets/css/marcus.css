@@ -1,3 +1,22 @@
+@font-face {
+font-family: linetoCircularBold;
+src: url(/font-awesome/fonts/lineto-circular-bold.ttf);
+}
+
+@font-face {
+font-family: linetoCircularBook;
+src: url(/font-awesome/fonts/lineto-circular-book.ttf);
+}
+
+@font-face {
+font-family: sanchezRegular;
+src: url(/font-awesome/fonts/Sanchez-Regular.ttf);
+}
+
+body {
+font-family: linetoCircularBold, Helvetica, Arial, sans-serif;
+}  
+
 .logo .wrap {
   border: 1px solid #fff;
   max-height:100%;
@@ -6,6 +25,7 @@
   display:block;
   background-size: contain;
   background-image: url(../img/forest.png);
+  display:none;
 }
 
 #nav-logo {
@@ -13,7 +33,7 @@
   width:50px;
   height: 60px;
   padding-top: 10px;
-  padding-left: 5px;
+  margin-left: 30px;
   
 }
 
@@ -72,7 +92,7 @@ body{
 
 .forest-road{
   color:white;
-  max-width:100%;
+  max-width:75%;
   height:auto;
   filter: invert(100%);
 }
@@ -90,3 +110,8 @@ body{
   background-image: url(../../img/fox.png) no-repeat;
 }
 
+
+#home .carousel-inner .item .logo {
+    margin-bottom: 35px;
+    display: none;
+  }
