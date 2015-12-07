@@ -18,7 +18,7 @@ font-family: linetoCircularBold;
 } 
 
 a{
-  font-family: sanchezRegular;
+  font-family: linetoCircularBold;
 } 
 
 h1{
@@ -27,6 +27,10 @@ h1{
 
 section header h2 {
   font-family:linetoCircularBook 
+}
+
+#home .carousel-inner .item .text h2{
+  font-family: linetoCircularBook;
 }
 
 .logo .wrap {
