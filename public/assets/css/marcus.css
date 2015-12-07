@@ -61,6 +61,10 @@ section header h2 {
 #F4EFE3 - white
 #006F41 - green*/
 
+#header .navbar-toggle{
+  color:#006f41;
+}
+
 #header .navbar-collapse {
     padding-left: 15px;
     padding-right: 15px;

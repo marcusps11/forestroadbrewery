@@ -11,12 +11,12 @@ body a,
 #blog .addComment form .btn:hover,
 .video .parallax:hover .content .icon,
 #footer .social .icon:hover {
-  color: #8dcd47;
+  color: #006F41;
 }
 body a:hover,
 body a:active,
 body a:focus {
-  color: #669d2b;
+  color: #006F41;
 }
 /****** Background *****/
 #features .i .icon .c .fill,
@@ -40,14 +40,14 @@ section header .dotted-break span:after,
 #pricing .i.active .wrap .c .btn,
 #pricing .i .wrap .c .btn:hover,
 #contact form .btn:hover {
-  background: #8dcd47;
+  background: #006F41;
 }
 #portfolio .i .c .wrap .info,
 #blog .articles .article .c .wrap .info {
   background: rgba(141, 205, 71, 0.8);
 }
 #blog .btn:hover {
-	background: #669d2b;
+	background: #006F41;
 }
 /****** Border color *****/
 #portfolio .filter li.active a,
@@ -70,5 +70,5 @@ section header .dotted-break span:after,
 #blog .addComment form .form-control:focus,
 #blog .addComment form .btn:hover,
 .video .parallax:hover .content .icon {
-  border-color: #8dcd47;
+  border-color: #006F41;
 }
