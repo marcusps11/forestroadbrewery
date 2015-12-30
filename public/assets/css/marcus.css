@@ -1,20 +1,20 @@
 @font-face {
-font-family: linetoCircularBold;
-src: url(/assets/font-awesome/fonts/lineto-circular-bold.ttf);
+  font-family: linetoCircularBold;
+  src: url(/assets/font-awesome/fonts/lineto-circular-bold.ttf);
 }
 
 @font-face {
-font-family: linetoCircularBook;
-src: url(/assets/font-awesome/fonts/lineto-circular-book.ttf);
+  font-family: linetoCircularBook;
+  src: url(/assets/font-awesome/fonts/lineto-circular-book.ttf);
 }
 
 @font-face {
-font-family: sanchezRegular;
-src: url(/assets/font-awesome/fonts/Sanchez-Regular.ttf);
+  font-family: sanchezRegular;
+  src: url(/assets/font-awesome/fonts/Sanchez-Regular.ttf);
 }
 
 body {
-font-family: linetoCircularBold;
+  font-family: linetoCircularBold;
 } 
 
 a{
@@ -54,20 +54,24 @@ section header h2 {
 }
 
 #home .carousel-inner .item.item-1 {
-    background-image: url(../../img/forest-road_small.jpg);
-    box-shadow: inset 0px 0px 0 2000px rgba(0,0,0,0.5);
+  background-image: url(../../img/forest-road_small.jpg);
+  box-shadow: inset 0px 0px 0 2000px rgba(0,0,0,0.5);
 }
 /*
 #F4EFE3 - white
 #006F41 - green*/
 
+p{
+  color:#006F41;
+}
+
 #header .navbar-toggle{
-  color:#006f41;
+  color:#FFF;
 }
 
 #header .navbar-collapse {
-    padding-left: 15px;
-    padding-right: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 body{
@@ -75,39 +79,43 @@ body{
 }
 
 #header .navbar {
-    height: 70px;
-    background: #F4EFE3;
-    -webkit-box-shadow: 0 2px 6px 0 rgba(0,0,0,.2);
-    -moz-box-shadow: 0 2px 6px 0 rgba(0,0,0,.2);
-    box-shadow: 0 2px 6px 0 rgba(0,0,0,.2);
-    border: 0;
+  height: 70px;
+  background: #006F41;
+  -webkit-box-shadow: 0 2px 6px 0 rgba(0,0,0,.2);
+  -moz-box-shadow: 0 2px 6px 0 rgba(0,0,0,.2);
+  box-shadow: 0 2px 6px 0 rgba(0,0,0,.2);
+  border: 0;
 }
 
 #header .navbar-collapse {
-    background: #F4EFE3;
-    padding-left: 15px;
-    padding-right: 15px;
+  background: #006F41;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .homebuttons a {
-  color:#006F41 !important;
+  color:#FFF !important;
 }
 
 .counter {
-    background-repeat: no-repeat;
-    background-position: center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-image: url(../../img/boil.jpg);
-    text-align: center;
-    padding: 70px 0;
-    z-index: 2;
-    position: relative;
-    color: #fff;
-    box-shadow: 0 2px 6px 0 rgba(0,0,0,.3);
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-image: url(../../img/boil.jpg);
+  text-align: center;
+  padding: 70px 0;
+  z-index: 2;
+  position: relative;
+  color: #fff;
+  box-shadow: 0 2px 6px 0 rgba(0,0,0,.3);
 
+}
+
+.navbar navbar-fixed-top{
+  background: white;
 }
 
 .forest-road{
@@ -127,11 +135,27 @@ body{
  -o-background-size:cover;
  background-size:cover;
  background-position:center;
-  background-image: url(../../img/fox.png) no-repeat;
+ background-image: url(../../img/nofox.png) no-repeat;
 }
 
 
 #home .carousel-inner .item .logo {
-    margin-bottom: 35px;
-    display: none;
-  }
+  margin-bottom: 35px;
+  display: none;
+}
+
+#work{
+  width: 40%;
+  height:auto;
+}
+
+#features{
+  background-image: url(../../img/lines.png)!important;
+
+}
+
+#fox{
+  width:60%;
+  height:auto;
+  margin-right: 60px;
+}
