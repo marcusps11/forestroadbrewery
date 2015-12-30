@@ -45,8 +45,8 @@ section header h2 {
 }
 
 #nav-logo {
-  background-image: url(./forest_noback.png);
-  width:50px;
+/*  background-image: url(./forest_noback.png);
+*/  width:50px;
   height: 60px;
   padding-top: 10px;
   margin-left: 30px;
