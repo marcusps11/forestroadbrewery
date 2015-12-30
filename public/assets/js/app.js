@@ -13,7 +13,7 @@ jQuery(function($)
             data: {
                 'key': 'bbP-KN8q5Bfo76EVKAZKPA',
                 'message': {
-                    'from_email': 'marcus@forestroad.co.uk',
+                    'from_email': 'yo@forestroad.co.uk',
                     'from_name': name,
                     'headers': {
                         'Reply-To': email
@@ -22,8 +22,8 @@ jQuery(function($)
                     'text': msg,
                     'to': [
                     {
-                        'email': 'marcus@forestroad.co.uk',
-                        'name': ' Marcus',
+                        'email': 'yo@forestroad.co.uk',
+                        'name': ' Pete',
                         'type': 'to'
                     }]
                 }
