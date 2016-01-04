@@ -122,7 +122,6 @@ body{
   color:white;
   max-width:75%;
   height:auto;
-  filter: invert(100%);
 }
 
 #footer{
@@ -163,3 +162,5 @@ body{
 #east{
   padding-top: 30px;
 }
+
+
