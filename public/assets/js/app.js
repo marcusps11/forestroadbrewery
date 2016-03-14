@@ -23,7 +23,7 @@ jQuery(function($)
                     'to': [
                     {
                         'email': 'yo@forestroad.co.uk',
-                        'name': ' Pete',
+                        'name': email,
                         'type': 'to'
                     }]
                 }
